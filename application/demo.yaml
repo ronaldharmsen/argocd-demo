@@ -22,7 +22,7 @@ spec:
     spec:
       containers:
       - name:  demo-app
-        image:  nginx:1.25
+        image:  nginx:1.17.9
         imagePullPolicy: IfNotPresent
         resources:
           requests:
